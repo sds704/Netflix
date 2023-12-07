@@ -1,0 +1,29 @@
+.home{
+    flex: 4;
+    position: relative;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+
+.logoutbtn{
+    z-index: 99;
+    position: absolute;
+    right: 20px;
+}
+.logoutbtn button{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.logoutbtn:hover{
+    opacity: 0.6;
+}
